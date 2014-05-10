@@ -2,7 +2,7 @@
 #set -x verbose #echo on
 
 #only add the bare necessities to get started. Everything else should be ansible.
-workspace="$HOME/workspace"
+workspace="$HOME/ansible_workspace"
 ansible="$workspace/ansible"
 ansible_git="https://github.com/ansible/ansible"
 dot_files="$workspace/dotfiles"
